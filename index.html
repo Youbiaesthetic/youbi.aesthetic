@@ -1,137 +1,152 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>YoubiAesthetic - Esthétique à Coventry</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>YoubiAesthetic — Accueil</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Navbar -->
-    <nav class="navbar">
-        <div class="logo">
-            <img src="YoubiAesthetic_logo.png" alt="YoubiAesthetic_logo">
-        </div>
-        <ul class="nav-links">
-            <li><a href="#home">Accueil</a></li>
-            <li><a href="#services">Services & Tarifs</a></li>
-			<!-- Services & Tarifs -->
-<section id="services">
-    <h2>Nos Services & Tarifs</h2>
-    <div class="service-list">
-        <!-- Lip Filler Service -->
-        <div class="service-item">
-            <img src="photo2.jpg" alt="photo2">
-            <h3>LIP FILLER</h3>
-            <ul>
-                <li>0.5ML: £100</li>
-                <li>1ML: £150</li>
-            </ul>
-            <p>£30 consultation fee applies for anti-wrinkle treatments.</p>
-        </div>
 
-        <!-- Botox Service -->
-        <div class="service-item">
-            <img src="photo1.jpg" alt="photo1">
-            <h3>Anti-Wrinkle Treatment (Botox)</h3>
-            <p>From £100</p>
-        </div>
+  <!-- NAVBAR -->
+  <header class="site-header">
+    <div class="container nav-inner">
+      <a class="brand" href="index.html">
+        <!-- Place ton PNG converti ici -->
+        <img src="assets/YoubiAesthetic_logo.png" alt="YoubiAesthetic" class="logo">
+      </a>
 
-        <!-- Fat Dissolving Service -->
-        <div class="service-item">
-            <img src="https://images.squarespace-cdn.com/content/v1/61af7c40170a5d7dd8863ff2/6ebb4a14-edef-4bd0-a2b3-340166dce8cb/Aesthetician-performing-fat-dissolving--treatment.jpg" alt="Aesthetician-performing-fat-dissolving--treatment">
-            <h3>Fat Dissolving</h3>
-            <p>Price upon consultation</p>
-        </div>
+      <!-- checkbox hack pour menu mobile -->
+      <input id="nav-toggle" type="checkbox">
+      <label for="nav-toggle" class="nav-toggle-label" aria-hidden="true">
+        <span></span><span></span><span></span>
+      </label>
 
-        <!-- Vitamins Service -->
-        <div class="service-item">
-            <img src="vitamins.jpg" alt="Vitamins">
-            <h3>Vitamins</h3>
-            <p>Price upon consultation</p>
-        </div>
-
-        <!-- Biotin Service -->
-        <div class="service-item">
-            <img src="https://www.pureholisticbeauty.co.uk/wp-content/uploads/2024/07/biotin-injections-benefits.png" alt="Biotin">
-            <h3>Biotin</h3>
-            <p>Price upon consultation</p>
-        </div>
-
-        <!-- Glutathione Service -->
-        <div class="service-item">
-            <img src="https://th.bing.com/th/id/OIP.WwhxlNE54wNBH4m0-J_4CgHaDq?w=283&h=173&c=7&r=0&o=7&dpr=1.5&pid=1.7&rm=3" alt="Glutathione">
-            <h3>Glutathione</h3>
-            <p>Price upon consultation</p>
-        </div>
+      <nav class="main-nav">
+        <a href="index.html">Accueil</a>
+        <a href="services.html">Services & Tarifs</a>
+        <a href="about.html">À propos</a>
+        <a href="contact.html">Contact</a>
+        <a class="btn-cta" href="mailto:Youbiaesthetic@gmail.com">Prendre RDV</a>
+      </nav>
     </div>
-</section>
+  </header>
 
-            <li><a href="#about">À propos</a></li>
-            <li><a href="#contact">Contact</a></li>
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container hero-grid">
+      <div class="hero-text">
+        <h1>YoubiAesthetic</h1>
+        <p class="lead">Professional nurse-led enhancements — soins esthétiques sûrs et naturels à Coventry.</p>
+        <div class="hero-ctas">
+          <a class="btn" href="mailto:Youbiaesthetic@gmail.com">Prendre rendez-vous</a>
+          <a class="btn ghost" href="services.html">Voir nos services</a>
+          <a class="contact-small" href="https://wa.me/447404555219" target="_blank" rel="noopener">WhatsApp: +44 7404 555219</a>
+        </div>
+        <ul class="hero-features">
+          <li>Consultation: £30 (anti-wrinkle)</li>
+          <li>Botox dès £100</li>
+          <li>Lip fillers à partir de £100</li>
         </ul>
-    </nav>
+      </div>
 
-    <!-- Accueil Section -->
-    <section id="home" class="hero-section">
-        <h1>Bienvenue chez YoubiAesthetic</h1>
-        <p>Découvrez une expérience esthétique unique à Coventry.</p>
-        <button onclick="window.location.href='mailto:Youbiaesthetic@gmail.com'">Prendre rendez-vous</button>
-    </section>
-
-    <!-- Services & Tarifs -->
-    <section id="services">
-        <h2>Nos Services & Tarifs</h2>
-        <div class="service-list">
-            <!-- Représenter chaque service ici -->
-            <div class="service-item">
-                <img src="service1.jpg" alt="Service 1">
-                <h3>Service 1</h3>
-                <p>Description du service 1</p>
-                <p>Prix: £XX</p>
-            </div>
-            <!-- Ajouter d'autres services ici -->
+      <div class="hero-media">
+        <!-- remplace hero.jpg par une photo professionnelle -->
+        <img src="assets/images/hero.jpg" alt="YoubiAesthetic clinic" class="hero-image">
+        <div class="callout">
+          <strong>Yes, healthy and beautiful results are possible for you</strong>
+          <p>Book a consultation — safe, nurse-led treatments.</p>
         </div>
-    </section>
+      </div>
+    </div>
+  </section>
 
-    <!-- À propos -->
-    <section id="about">
-        <h2>À propos de nous</h2>
-        <p>Notre clinique offre des services d'esthétique haut de gamme dans un cadre moderne et accueillant.</p>
-        <p><a href="https://www.linkedin.com/in/audrey-youbi-8b11ba1ba?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">Suivez-nous sur LinkedIn</a></p>
-    </section>
+  <!-- PREVIEW DES SERVICES (3 photos demandées) -->
+  <section class="services-preview">
+    <div class="container">
+      <h2>Services populaires</h2>
+      <div class="card-row">
+        <article class="service-card">
+          <img src="assets/images/lip_filler.webp" alt="Lip Filler">
+          <h3>Lip Filler</h3>
+          <p>0.5ML: £100 · 1ML: £150</p>
+        </article>
 
-    <!-- Contact -->
-    <section id="contact">
-        <h2>Contactez-nous</h2>
-        <form action="mailto:Youbiaesthetic@gmail.com" method="POST" enctype="text/plain">
-            <label for="name">Nom:</label>
-            <input type="text" id="name" name="name" required>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" required></textarea>
-            <button type="submit">Envoyer</button>
-        </form>
-        <div class="contact-info">
-            <p>Email: <a href="mailto:Youbiaesthetic@gmail.com">Youbiaesthetic@gmail.com</a></p>
-            <p>Téléphone: <a href="tel:+44 7404 555219">+44 7404 555219</a></p>
-        </div>
-        <div id="map">
-            <h3>Nous trouver</h3>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1830.1077074477795!2d-1.4574634999999998!3d52.4024571!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48772bc8e08c3c27%3A0xfde8c8b689b7ed6b!2s17%20William%20McKee%20Close%2C%20Binley%2C%20Coventry%2C%20CV3%202RD%2C%20UK!5e0!3m2!1sen!2sus!4v1656079274793!5m2!1sen!2sus" width="600" height="450" allowfullscreen="" loading="lazy"></iframe>
-        </div>
-    </section>
+        <article class="service-card">
+          <img src="assets/images/botox.webp" alt="Botox">
+          <h3>Anti-Wrinkle (Botox)</h3>
+          <p>From £100</p>
+        </article>
 
-    <!-- Footer -->
-    <footer>
-        <p>Suivez-nous sur les réseaux sociaux:</p>
-        <div class="social-icons">
-            <a href="https://www.tiktok.com/@youbiaesthetic?_t=ZN-8zk7gkanZ6U&_r=1"><img src="tiktok_icon.png" alt="TikTok"></a>
-            <a href="https://www.instagram.com/youbiaesthetic?igsh=MWFqdW56YTJqdjd3cg=="><img src="instagram_icon.png" alt="Instagram"></a>
-            <a href="https://www.facebook.com/share/1CCV3CCuym/?mibextid=wwXIfr"><img src="facebook_icon.png" alt="Facebook"></a>
+        <article class="service-card">
+          <img src="assets/images/fat_dissolving.webp" alt="Fat Dissolving">
+          <h3>Fat Dissolving</h3>
+          <p>Prix sur consultation</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALERIE SLIDER (CSS only) -->
+  <section class="gallery">
+    <div class="container">
+      <h2>Galerie</h2>
+      <div class="slider">
+        <div class="slider-track">
+          <!-- Ajoute tes 10 images ici; duplique si tu veux loop plus fluide -->
+          <div class="slide"><img src="assets/images/gal1.webp" alt=""></div>
+          <div class="slide"><img src="assets/images/gal2.webp" alt=""></div>
+          <div class="slide"><img src="assets/images/gal3.webp" alt=""></div>
+          <div class="slide"><img src="assets/images/gal4.webp" alt=""></div>
+          <div class="slide"><img src="assets/images/gal5.webp" alt=""></div>
+          <div class="slide"><img src="assets/images/gal6.webp" alt=""></div>
+          <div class="slide"><img src="assets/images/gal7.webp" alt=""></div>
+          <div class="slide"><img src="assets/images/gal8.webp" alt=""></div>
+          <div class="slide"><img src="assets/images/gal9.webp" alt=""></div>
+          <div class="slide"><img src="assets/images/gal10.webp" alt=""></div>
+          <!-- fin slides -->
         </div>
-    </footer>
+      </div>
+    </div>
+  </section>
+
+  <!-- QUICK FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <img src="assets/YoubiAesthetic_logo.png" alt="logo" class="logo-footer">
+        <p>17 William McKee Close, Binley, Coventry, CV3 2RD</p>
+        <p>Email: <a href="mailto:Youbiaesthetic@gmail.com">Youbiaesthetic@gmail.com</a></p>
+        <p>Téléphone: <a href="tel:+447404555219">+44 7404 555219</a></p>
+      </div>
+
+      <div>
+        <h4>Liens</h4>
+        <nav class="footer-nav">
+          <a href="services.html">Services</a>
+          <a href="about.html">À propos</a>
+          <a href="contact.html">Contact</a>
+          <a href="https://www.linkedin.com/in/TONPROFIL" target="_blank">LinkedIn</a>
+        </nav>
+      </div>
+
+      <div>
+        <h4>Réseaux</h4>
+        <div class="socials">
+          <!-- Remplace # par tes URL -->
+          <a href="#" aria-label="TikTok">TikTok</a>
+          <a href="#" aria-label="Instagram">Instagram</a>
+          <a href="#" aria-label="Facebook">Facebook</a>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">© <span id="year"></span> YoubiAesthetic</div>
+  </footer>
+
+<script>
+  // simple small helper pour l'année ; si tu veux 100% sans JS supprime ce <script> et remplace manuellement.
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
 </body>
 </html>
-
