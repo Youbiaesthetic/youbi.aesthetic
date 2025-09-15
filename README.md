@@ -119,7 +119,7 @@
   <footer class="site-footer">
     <div class="container footer-grid">
       <div>
-        <img src="assets/YoubiAesthetic_logo.png" alt="logo" class="logo-footer">
+        <img src="YoubiAesthetic_logo.png" alt="logo" class="logo-footer">
         <p>17 William McKee Close, Binley, Coventry, CV3 2RD</p>
 <!-- Icône Map avec Font Awesome -->
 <a href="https://www.google.com/maps/place/Coventry" target="_blank">
