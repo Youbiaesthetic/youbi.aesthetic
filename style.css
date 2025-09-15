@@ -137,3 +137,30 @@ body{
   .slide img{height:120px}
   .hero-image{height:220px}
 }
+footer {
+  background-color: #f8f8f8;
+  padding: 20px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.social-icons {
+  margin-bottom: 15px;
+}
+
+.social-icons a {
+  color: #555;
+  font-size: 28px;
+  margin: 0 12px;
+  transition: all 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #c19a6b; /* couleur dorée qui correspond à ton logo */
+  transform: scale(1.2);
+}
+
+footer p {
+  font-size: 14px;
+  color: #777;
+}
