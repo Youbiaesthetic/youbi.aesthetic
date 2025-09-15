@@ -72,13 +72,13 @@
       <h2>Services populaires</h2>
       <div class="card-row">
         <article class="service-card">
-          <img src="assets/images/lip_filler.webp" alt="Lip Filler">
+          <img src="lipsfiller.webp" alt="Lip Filler">
           <h3>Lip Filler</h3>
           <p>0.5ML: £100 · 1ML: £150</p>
         </article>
 
         <article class="service-card">
-          <img src="assets/images/botox.webp" alt="Botox">
+          <img src="botox.webp" alt="Botox">
           <h3>Anti-Wrinkle (Botox)</h3>
           <p>From £100</p>
         </article>
