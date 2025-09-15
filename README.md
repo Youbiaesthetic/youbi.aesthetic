@@ -172,6 +172,7 @@
 </footer>
 </body>
 </html>
+
 ```
 ```html
 <!doctype html>
@@ -347,6 +348,7 @@
 </footer>
 </body>
 </html>
+
 ```
 ```html
 <!doctype html>
@@ -522,6 +524,7 @@
 </footer>
 </body>
 </html>
+
 ```
 ```html
 <!doctype html>
@@ -697,6 +700,7 @@
 </footer>
 </body>
 </html>
+
 ```
 ```css
 /* = VARIABLES & RESET */
@@ -865,6 +869,7 @@ footer p {
   font-size: 14px;
   color: #777;
 }
+
 ```
 
 
