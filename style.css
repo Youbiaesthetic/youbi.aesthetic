@@ -274,7 +274,7 @@ footer p {
 
 .slider-track {
   display: flex;
-  animation: scroll 20s linear infinite; /* ← ici on règle la vitesse */
+  animation: scroll 5s linear infinite; /* ← ici on règle la vitesse */
 }
 
 .slide {
