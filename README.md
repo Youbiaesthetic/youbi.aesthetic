@@ -121,7 +121,10 @@
     <div class="container footer-grid">
       <div>
         <img src="YoubiAesthetic_logo.png" alt="logo" class="logo-footer">
-        <p>17 William McKee Close, Binley, Coventry, CV3 2RD</p>
+        <div id="map">
+            <h3>Nous trouver</h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1830.1077074477795!2d-1.4574634999999998!3d52.4024571!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48772bc8e08c3c27%3A0xfde8c8b689b7ed6b!2s17%20William%20McKee%20Close%2C%20Binley%2C%20Coventry%2C%20CV3%202RD%2C%20UK!5e0!3m2!1sen!2sus!4v1656079274793!5m2!1sen!2sus" width="600" height="450" allowfullscreen="" loading="lazy"></iframe>
+        </div>
 		<!-- Icône Map avec Font Awesome -->
 <a href="https://www.google.com/maps/place/Coventry" target="_blank">
     <i class="fas fa-map-marker-alt"></i> Voir sur la carte
