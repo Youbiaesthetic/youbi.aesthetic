@@ -164,6 +164,8 @@ footer p {
   font-size: 14px;
   color: #777;
 }
+
+}
 #map {
   display: flex;
   flex-direction: column;
@@ -181,9 +183,7 @@ footer p {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.logo img:hover {
-  transform: scale(1.1); /* zoom léger */
-  box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+
 }
 /* Style du conteneur du widget Google Translate */
 #google_translate_element {
