@@ -185,3 +185,85 @@ footer p {
   transform: scale(1.1); /* zoom léger */
   box-shadow: 0 6px 12px rgba(0,0,0,0.3);
 }
+/* Style du conteneur du widget Google Translate */
+#google_translate_element {
+  position: absolute;
+  top: 20px;  /* Distance du haut de la page */
+  right: 20px;  /* Aligne le widget à droite de la page */
+  z-index: 1000;  /* Assure que le widget sera au-dessus des autres éléments */
+  background-color: #f0f0f0; /* Fond clair pour le widget */
+  padding: 10px 15px;  /* Un peu d'espace autour du menu */
+  border-radius: 5px;  /* Coins arrondis */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Légère ombre pour le style */
+}
+
+/* Style du menu déroulant de langue */
+.goog-te-combo {
+  font-size: 14px;
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #fff;
+  color: #333;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Ajuster la couleur du texte quand l'utilisateur survole le menu */
+.goog-te-combo:hover {
+  background-color: #e6e6e6;
+}
+/* Conteneur du slider */
+.slider-container {
+  width: 100%;
+  overflow: hidden;
+  margin-top: 30px;
+  position: relative;
+}
+
+.slider-track {
+  display: flex;
+  animation: slide 30s infinite linear; /* Animation du défilement */
+}
+
+.slide {
+  min-width: 20%; /* Chaque image prendra 20% de la largeur */
+  padding: 10px;
+  text-align: center;
+}
+
+.slide img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px; /* Coins arrondis */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Ombre subtile */
+}
+
+.slide p {
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Animation du slider */
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+/* Réactivité */
+@media (max-width: 768px) {
+  .slide {
+    min-width: 50%; /* 2 images par ligne sur mobile */
+  }
+}
+
+@media (max-width: 480px) {
+  .slide {
+    min-width: 100%; /* Une seule image par ligne sur très petit écran */
+  }
+}
