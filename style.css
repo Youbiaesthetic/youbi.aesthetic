@@ -290,4 +290,21 @@ footer p {
     transform: translateX(-100%);
   }
 }
-animation: scroll 5s linear infinite;
+
+.slider-container {
+  overflow-x: auto;       /* permet le scroll horizontal */
+  scroll-behavior: smooth; /* scroll fluide */
+  white-space: nowrap;     /* empêche le retour à la ligne */
+  padding-bottom: 10px;    /* un peu d'espace pour la scrollbar */
+}
+
+.slider-track {
+  display: flex;
+}
+
+.slide {
+  flex: 0 0 auto;          /* chaque image garde sa taille */
+  width: 200px;            /* largeur fixe (modifiable) */
+  margin-right: 15px;
+  text-align: center;
+}
