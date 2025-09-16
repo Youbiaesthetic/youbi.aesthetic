@@ -177,3 +177,11 @@ footer p {
   max-width: 100%; /* S'assure que la carte ne dépasse pas la largeur du conteneur */
   height: 450px; /* Garder une hauteur fixe ou ajuster à ton besoin */
 }
+.logo img {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.logo img:hover {
+  transform: scale(1.1); /* zoom léger */
+  box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+}
