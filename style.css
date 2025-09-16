@@ -267,3 +267,27 @@ footer p {
     min-width: 100%; /* Une seule image par ligne sur très petit écran */
   }
 }
+.slider-container {
+  overflow: hidden;
+  width: 100%;
+}
+
+.slider-track {
+  display: flex;
+  animation: scroll 20s linear infinite; /* ← ici on règle la vitesse */
+}
+
+.slide {
+  min-width: 250px; /* largeur de chaque image, ajuste si besoin */
+  margin-right: 20px;
+}
+
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+animation: scroll 5s linear infinite;
